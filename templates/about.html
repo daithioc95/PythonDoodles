@@ -1,5 +1,58 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+
+    {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+    {% endfor %}
+
+    <h2>{{ page_title }}</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis faucibus erat. Proin maximus pellentesque
+        libero at accumsan. Phasellus vel odio vitae erat tempus venenatis in eu mi. Aliquam et ullamcorper odio. Aliquam
+        dapibus sagittis dolor, a faucibus ipsum finibus eu. Donec convallis eros nec purus tincidunt porta. Vivamus ut
+        magna ac libero cursus malesuada ut quis risus. Suspendisse iaculis ut nibh a vestibulum. Vestibulum id neque id
+        nulla dictum aliquam. Nam orci justo, dignissim a blandit non, pellentesque a turpis. Sed venenatis fringilla
+        sapien. Nunc facilisis risus vitae ante volutpat lobortis. Aenean ac lacus ultricies, efficitur magna non, varius
+        est. Vestibulum semper justo ac dui suscipit, sit amet pharetra ex iaculis. Pellentesque scelerisque dolor tellus,
+        quis aliquam nisi fringilla et.
+    </p>
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>Potato man</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis faucibus erat. Proin maximus pellentesque
+                libero at accumsan. Phasellus vel odio vitae erat tempus venenatis in eu mi. Aliquam et ullamcorper odio. Aliquam
+                dapibus sagittis dolor, a faucibus ipsum finibus eu. Donec convallis eros nec purus tincidunt porta. Vivamus ut
+                magna ac libero cursus malesuada ut quis risus. Suspendisse iaculis ut nibh a vestibulum. Vestibulum id neque id
+                nulla dictum aliquam. Nam orci justo, dignissim a blandit non, pellentesque a turpis. Sed venenatis fringilla
+                sapien. Nunc facilisis risus vitae ante volutpat lobortis. Aenean ac lacus ultricies, efficitur magna non, varius
+                est. Vestibulum semper justo ac dui suscipit, sit amet pharetra ex iaculis. Pellentesque scelerisque dolor tellus,
+                quis aliquam nisi fringilla et.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://i.redd.it/y590eq6w3z131.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://i.pinimg.com/originals/21/37/e2/2137e20d43d10934058ef0736e9738c2.jpg" alt="">
+        </div>
+        <div class="col-md-7">
+            <h3>Cucumber ears</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis faucibus erat. Proin maximus pellentesque
+                libero at accumsan. Phasellus vel odio vitae erat tempus venenatis in eu mi. Aliquam et ullamcorper odio. Aliquam
+                dapibus sagittis dolor, a faucibus ipsum finibus eu. Donec convallis eros nec purus tincidunt porta. Vivamus ut
+                magna ac libero cursus malesuada ut quis risus. Suspendisse iaculis ut nibh a vestibulum. Vestibulum id neque id
+                nulla dictum aliquam. Nam orci justo, dignissim a blandit non, pellentesque a turpis. Sed venenatis fringilla
+                sapien. Nunc facilisis risus vitae ante volutpat lobortis. Aenean ac lacus ultricies, efficitur magna non, varius
+                est. Vestibulum semper justo ac dui suscipit, sit amet pharetra ex iaculis. Pellentesque scelerisque dolor tellus,
+                quis aliquam nisi fringilla et.
+            </p>
+        </div>
+    </div>
 {% endblock %}
     
